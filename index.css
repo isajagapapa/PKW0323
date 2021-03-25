@@ -21,6 +21,7 @@ body{
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
     transition: 0.5s;
     transition-property: background, box-shadow;
+    flex-wrap: wrap;
 }
   
 .datetime:hover{
@@ -35,8 +36,9 @@ body{
 }
   
 .time{
-    font-size: 100px;
+    font-size: 65px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     letter-spacing: 3px;
@@ -48,21 +50,90 @@ body{
     font-weight: 600;
     text-align: center;
     letter-spacing: 3px;
+    display: flex;
+    flex-wrap: wrap;
 }
   
 .time span:last-child{
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
     margin-top: 10px;
     padding: 0 5px;
     border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@media (max-width: 825px) {
+@media (max-width: 768px){
     .datetime {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding: 15px 10px;
+        width: 100px;
+    }
+
+    .datetime:hover{
+        background: black;
+    }
+
+    .date{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+      
+    .time{
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 3px;
+    }
+
+    .time span:last-child{
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding: 0 5px;
+        border-radius: 3px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
-        
+
+@media(min-width: 768px) and (max-width: 992px){
+    .datetime {
+        padding: 15px 10px;
+    }
+
+    .datetime:hover{
+        background: black;
+    }
+
+    .date{
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+      
+    .time{
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 3px;
+    }
+
+    .time span:last-child{
+        font-size: 50px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding: 0 5px;
+        border-radius: 3px;
+        display: flex;
+    }
+}
