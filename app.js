@@ -1,5 +1,5 @@
 let BulanArray = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'October', 'November', 'Desembera'];
-let HariArray = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Juma'at", "Sabtu"];
+let HariArray = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jum'at", "Sabtu"];
 let timeElement = document.getElementById("JamSpan");
 let dateElement = document.getElementById("TanggalSpan");
 
