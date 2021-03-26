@@ -65,6 +65,18 @@ body{
     flex-wrap: wrap;
 }
 
+.nama{
+    font-size: 15px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 768px){
     .datetime {
         padding: 15px 10px;
@@ -101,9 +113,21 @@ body{
         display: flex;
         flex-wrap: wrap;
     }
+
+    .nama{
+        font-size: 5px;
+        font-weight: 600;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        padding: 0 5px;
+        border-radius: 3px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-@media(min-width: 766px) and (max-width: 992px){
+@media(min-width: 769px) and (max-width: 992px){
     .datetime {
         padding: 15px 10px;
     }
