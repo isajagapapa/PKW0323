@@ -77,6 +77,17 @@ body{
     flex-wrap: wrap;
 }
 
+.nama a{
+    color: white;
+    text-decoration: none;
+}
+
+.nama a:hover
+{
+    color: white;
+    text-decoration:none;
+}
+
 @media (max-width: 768px){
     .datetime {
         padding: 15px 10px;
